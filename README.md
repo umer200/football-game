@@ -1,8 +1,6 @@
 # football-game
 End Semester project for OOP (java)
 
-hahaha 
-
 About the project:
 
 ==Description==
