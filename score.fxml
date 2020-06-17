@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1100.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Adeel.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#047858" height="1002.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="15.0" width="1123.0" />
+      <Text fill="#0d8ba7" layoutX="10.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" text="GAME OVER" translateY="-180.0" y="200.0">
+         <font>
+            <Font name="Corbel Bold" size="120.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" stroke="#ffb200" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR SCORE:" translateY="100.0">
+         <font>
+            <Font name="Comic Sans MS" size="64.0" />
+         </font>
+      </Text>
+      <Text fx:id="myScore" fill="#f8a601" strokeType="OUTSIDE" strokeWidth="0.0" text="0" translateY="200.0">
+         <font>
+            <Font name="Gadugi Bold" size="96.0" />
+         </font>
+      </Text>
+   </children>
+</StackPane>
